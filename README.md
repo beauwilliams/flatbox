@@ -13,6 +13,8 @@ The hope is that a more predictable, easy to redesign system can emerge, that co
 
 ```lua
 use({'beauwilliams/flatbox'})
+...
+colorscheme flatbox
 ```
 
 ```vim

@@ -1,4 +1,4 @@
-`# WIP.
+# WIP.
 
 Biting the bullet and building my own theme. This is a fork of gruvbox baby.
 

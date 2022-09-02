@@ -47,3 +47,10 @@ vim.opt.fillchars = {
 ## Acknowledgments
 
 - https://github.com/luisiacc/gruvbox-baby
+
+## TODO
+
+Fix illegible escape \ chars when used in json strings
+Treesitter
+* **@string** -> **jsonTSString** -> **TSString**
+* **@string.escape** -> **jsonTSStringEscape** -> **TSStringEscape**

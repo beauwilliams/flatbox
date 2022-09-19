@@ -293,6 +293,9 @@ function M.setup(config)
     NvimTreeFolderIcon = { fg = c.soft_yellow },
     NvimTreeRootFolder = { fg = c.magenta },
     NvimTreeExecFile = { fg = c.light_blue, style = "NONE" },
+    NvimTreeIndentMarker = { fg = c.gray },
+    NvimTreeSpecialFile = { fg = c.soft_yellow },
+    NvimTreeImageFile = { fg = c.aqua },
 
     NvimTreeGitDirty = { fg = c.red },
     NvimTreeGitStaged = { fg = c.milk },
@@ -377,6 +380,9 @@ function M.setup(config)
     mailSignature = { fg = c.comment },
     mailURL = { fg = c.orange, style = "underline" },
     mailEmail = { fg = c.soft_yellow },
+
+    -- Beacon
+    Beacon = {bg = c.milk},
   }
 
   if config.telescope_theme then
